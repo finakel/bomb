@@ -387,8 +387,6 @@ async def ukr(number):
             response = await send_request(url, **kwargs)
             if response.status == 200:
                 logging.info(f"Успех - {number}")
-            else:
-                logging.error("Ошибка в коде")
         except Exception as e:
             logging.error(f"{e}")
 
