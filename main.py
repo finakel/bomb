@@ -28,7 +28,7 @@ message = ("Приветствую.\nВы в главном меню.")
 
 db_config = {
     'user': 'postgres',
-    'password': 'BwQUZdnbjRhbYYyQBLqynmYlqDExKNea',
+    'password': 'NMqPGNsFjpkGgrSquFdaizIvAWhyMYer',
     'database': 'railway',
     'host': 'postgres-hdsm.railway.internal',
     'port': '5432',
