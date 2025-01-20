@@ -30,7 +30,7 @@ db_config = {
     'user': 'postgres',
     'password': 'NMqPGNsFjpkGgrSquFdaizIvAWhyMYer',
     'database': 'railway',
-    'host': 'postgres-hdsm.railway.internal',
+    'host': 'postgres.railway.internal',
     'port': '5432',
 }
 
