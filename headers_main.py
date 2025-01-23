@@ -286,3 +286,82 @@ cookies_avtoria = {
     "_clsk": "1423o84%7C1736678702475%7C2%7C1%7Co.clarity.ms%2Fcollect",
     "gdpr": "[2,3]"
 }
+
+headers_elmir = {
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Host": "elmir.ua",
+    "Origin": "https://elmir.ua",
+    "Pragma": "no-cache",
+    "Referer": "https://elmir.ua/",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "TE": "trailers",
+    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0",
+    "X-Requested-With": "XMLHttpRequest"
+}
+
+cookies_elmir = {
+    "h": "261l1%25%29Q%3Ew%23-qOBuHHSF",
+    "elm38": "63735487",
+    "ua": "0",
+    "visit": "https%3A%2F%2Felmir.ua%2F",
+    "PHPSESSID": "681rqgleldp05cmon10agovjlh",
+    "promopp": "1",
+    "_gcl_au": "1.1.172936397.1737627187",
+    "_ga": "GA1.1.660984500.1737627191",
+    "_gid": "GA1.2.2102301709.1737627191",
+    "_gat_UA-2987917-1": "1",
+    "_clck": "1wjfnhb%7C2%7Cfst%7C0%7C1849",
+    "_fbp": "fb.1.1737627194854.996765067577660788",
+    "_ga_79B3PN4ZWG": "GS1.1.1737627196.1.0.1737627197.59.0.202308261",
+    "session_id": "1737627196",
+    "slow": "70.9",
+    "_clsk": "wf2xi2%7C1737627197703%7C1%7C1%7Cj.clarity.ms%2Fcollect"
+}
+
+headers_elmir_call = {
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Host": "elmir.ua",
+    "Origin": "https://elmir.ua",
+    "Pragma": "no-cache",
+    "Referer": "https://elmir.ua/",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0",
+    "X-Requested-With": "XMLHttpRequest"
+}
+
+cookies_elmir_call = {
+    "chat_id": "guest%3A1737627240.6482%3A200309940",
+    "h": "261l1%25%29Q%3Ew%23-qOBuHHSF",
+    "elm38": "63735487",
+    "ua": "0",
+    "visit": "https%3A%2F%2Felmir.ua%2F",
+    "PHPSESSID": "681rqgleldp05cmon10agovjlh",
+    "promopp": "1",
+    "_gcl_au": "1.1.172936397.1737627187",
+    "_ga": "GA1.1.660984500.1737627191",
+    "_gid": "GA1.2.2102301709.1737627191",
+    "_clck": "1wjfnhb%7C2%7Cfst%7C0%7C1849",
+    "_fbp": "fb.1.1737627194854.996765067577660788",
+    "_ga_79B3PN4ZWG": "GS1.1.1737627196.1.0.1737627197.59.0.202308261",
+    "session_id": "1737627196",
+    "slow": "70.9",
+    "_clsk": "wf2xi2%7C1737627197703%7C1%7C1%7Cj.clarity.ms%2Fcollect",
+    "helpcrunch.com-elmir-2-device-id": "54818978",
+    "helpcrunch.com-elmir-2-helpcrunch-device": '{"id":54818978,"secret":"RGUtJST2tAXJ0QvZ3YjnpgTu1JnSC/Q/m8mq7dah3t0dBjEaAgavHZVOs6cAJejxhQTLGIxuXhsZjue0OjPdjw==","sessions":1}',
+    "helpcrunch.com-elmir-2-token-data": '{"access_token":"Re4MI2IXFY6DPpX8293AyAA3oxf9uzwpx19t5+goqxEn19+1JfsptDQICwapV6m//ECV3FdLRkBVBuBcbwD98mdVtIjvlCqhGiJW0MrjJqriJgukCmw1TxtmnjeMIMx/9IQ1cdHx1foh6uHlSoC8/sTlBFDbxkdJWZMiouscvI+vumIf3w2v1pSM+0GeAzB2EtrkDYdXwKIdZqYPkK26/FzfdBtqv4IHT9VlaTFVuqkO/79DPob0Sw2+p1YEklJxoI1dhRaiWKaIUdpkRHvUltekUG2MURweCKFSW+7dLr3COU7Kb2zWqSbJz8VCODB1QsxU4vMb7XR3UDBTQy7wG+i5/J2i7LvwOvIcbRhmiCHZJ13GcZotjGswEvlKCDhkrpye2dN3xc6Pd/ZW/Xa+P9NHlrDNYcy2MmFdXX1HzA/srWI0Ip0mzo/oZaIq63YW3UM0koIrtt3ST69Mg+Euq2PZIb67/B+CwYhxeYMwrPcFucJthMCOZrUB9HXosah4brhrPZ3yx+M0nDyG6sHvG1hNiCqh/hEGOYzmTYmFiJxnDOAR9rzKmGk1UDRva0fqFg6N4uL/PXhijA1Uqt6Xv7aAnDDSyLWRkQX88z+5raTZFDvuFDDFJ5CsMpyIyfZ+ifAh7vgkOHkoPq8Ti8MRxIGEGAkYqf7Qd4BjU+OLvY0kSpg/7LfJ7AF8BeFBWKWiXzhhAJKYTy9KK1eKqYtIf7bvjNvLIemvY35dGiib47t4czOmlUPeA8BDQrdWHNZbIkqpIE6WKUoNK2XgTzpS4n817cx3+/Iw4UNFXYVk4MTpx4oiGJzszxZshrwM","refresh_token":"+IJA7nfEP+y4M1759qdsN21qfhbDlhcLPVAMBociWKzDSa3n2wFhbaVSt1UD9JL2a6r2ESTesg1dFsQ6l9pB","expires_in":1737628923667}',
+    "helpcrunch.com-elmir-2-user-id": "guest:1737627240.6482:200309940"
+}
